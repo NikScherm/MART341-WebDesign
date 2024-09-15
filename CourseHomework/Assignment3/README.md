@@ -11,7 +11,7 @@ __What Happened__
    However, *luckily* I did not run into past troubles either because I learned from them or they updated to fix their side glitches.
    I paid attention and listened to which extensions to download.
    
-   [Assignment 3[Assignment-03](https://github.com/NikScherm/MART341-WebDesign/tree/main/assignment-03)
+[Assignment-03](https://github.com/NikScherm/MART341-WebDesign/tree/main/assignment-03)
    
    ![Picture of the Day 9/14/2024](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Pers%C3%A9polis%2C_Ir%C3%A1n%2C_2016-09-24%2C_DD_15.jpg/750px-Pers%C3%A9polis%2C_Ir%C3%A1n%2C_2016-09-24%2C_DD_15.jpg)
 
