@@ -22,9 +22,13 @@ XHTML has features that are a blend of the other two, it provides strict rules f
 markup. It corrects behaviors in HTML and in the process ensuring the code is more precise, especially on mobile devices.
 
 **What are the four essential elements every HTML page needs?**
-A: 
+A: The four essential elements are <!doctype HTML>, <HTML>,<head>, and <body>.
 
 **What’s the purpose of the index.html page, and where should it be placed?**
-A:
+A: The index.html page is normally the homepage of a website which contains content that users will see first.
+It should be placed in the root directory and not it other folders attached to the root so it can function.
 
 **Review: What are the top naming practices for clean and organized code?**
+Naming should be clear and consistent including how we use lowercase, uppercase, and spelling. 
+There should be no spaces or usage of underscores, instead use hyphens. Avoid using numeric
+starts and do not use funky symbols/characters. 
