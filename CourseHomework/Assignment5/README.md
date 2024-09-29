@@ -1,4 +1,4 @@
-Visual Studio Code (or Atom) is the tool we use to **create**and edit our code files and directories.
+Visual Studio Code (or Atom) is the tool we use to **create** and edit our code files and directories.
 
 README.md is a markdown file that uses markdown language to describe the **content** of a repository.
 
