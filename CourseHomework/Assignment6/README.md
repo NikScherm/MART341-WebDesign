@@ -11,3 +11,5 @@ needs an order at all. It wasn't horrible I wish to float to other sides but for
 -
 I did face some challenge trying to use div for the first time. I had to relook over the code on the website and realize I missed a few
 things. I fixed it after I read through it carefully.
+-
+Assignment6
