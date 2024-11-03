@@ -8,10 +8,10 @@ After reading online, I decided to use margin: 0; and padding: 0; to allow for b
 
 The vertical menu area is my attempt to transfer code from the HTML side. It is similar to a hover menu, except that you do not need to hover over it for links to appear. The choices made in this section ensure that the spacing and colors match the header while maintaining a consistent size and margin. Other styles deal with links in the vertical menu for basic font-related properties and padding.
 
->.active
+.active
 This class was added to indicate the current page a user is on.
 
->.main-content
+.main-content
 This class addresses the main area of content on the page, providing an overall style for alignment, background color, padding, etc. This helps ensure consistency throughout the website.
 
 The footer is separate from the main content, allowing it to create its own space. The main focus here was on padding and the background color.
