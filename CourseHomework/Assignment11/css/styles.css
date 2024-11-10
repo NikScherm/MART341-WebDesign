@@ -1,0 +1,169 @@
+
+.vertical-menu a:hover {
+    background-color: #d0d0ca; 
+    text-decoration: underline;
+}
+
+
+h2::before {
+    content: "\25CF"; 
+    font-size: 24px;
+    margin-right: 10px;
+    
+}
+h2::after {
+    content: "\25CF"; 
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+/* Fonts (KEEP FONT FACE AT TOP AREA) */
+@font-face { 
+    font-family: 'Tinos';
+    src: url("../fonts/Tinos-Regular.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tinos';
+    src: url("../fonts/Tinos-Bold.ttf") format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tinos';
+    src: url('../fonts/Tinos-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tinos';
+    src: url('../fonts/Tinos-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+.text1 {
+    font-family: 'Tinos', serif;
+}
+
+.bold1 {
+    font-family: 'Tinos', serif;
+    font-weight: bold;
+}
+
+.arvo-regular {
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.arvo-bold {
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+.arvo-regular-italic {
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+}
+
+.arvo-bold-italic {
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+}
+
+.courgette-regular {
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body { 
+    font-family: 'Tinos', serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+#pagetitl {
+    
+    font-size: 30px;
+    text-decoration: none; 
+    color:#72133c;
+    font-family: "Courgette", cursive;
+    text-decoration:underline;
+}
+
+/* Header Container Styles */
+.header-container {
+    display: flex; 
+    align-items: center; 
+    background-color: #155d5f; 
+    padding: 10px; 
+}
+
+/* Vertical Menu Styles */
+.vertical-menu {
+    width: 220px; 
+    margin-right: 20px; 
+}
+
+.vertical-menu a {
+    background-color: #eee; 
+    color: black; 
+    display: block; 
+    padding: 12px; 
+    text-decoration: none; 
+    margin-bottom: 9px; 
+}
+
+.vertical-menu a:hover {
+    background-color: #d0d0ca; 
+    text-decoration: underline;
+}
+
+.vertical-menu a.active {
+    background-color: hsla(153, 51%, 38%, 0.894); 
+    color: white;
+}
+
+/* Header Styles */
+.header {
+    color: white; 
+    font-size: 30px; 
+    font-family: "Arvo", serif;
+    text-align: right;
+}
+
+/* Main Content Styles */
+.main-content {
+    overflow: auto; 
+    background-color: hsla(120, 8%, 92%, 0.918); 
+    padding: 32px; 
+    text-align: center; 
+    margin: 20px 40px 20px 40px; /* top right bottom left */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #7fb9a4;
+    text-align: center; 
+    padding: 48px; 
+    font-size: 18px; 
+}
+
+footer a {
+    color: #155d5f; 
+    text-decoration: none; 
+}
