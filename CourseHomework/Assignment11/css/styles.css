@@ -1,0 +1,130 @@
+
+
+.vertical-menu a:hover {
+    background-color: #d0d0ca; 
+    text-decoration: underline;
+}
+
+
+h2::before {
+    content: "\25CF"; 
+    font-size: 24px;
+    margin-right: 10px;
+    
+}
+h2::after {
+    content: "\25CF"; 
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+
+
+
+.arvo-regular {
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.arvo-bold {
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+.arvo-regular-italic {
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+}
+
+.arvo-bold-italic {
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+}
+
+.courgette-regular {
+    font-family: "Courgette", 'cursive';
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+#pagetitl {
+    
+    font-size: 30px;
+    text-decoration: none; 
+    color:#72133c;
+    font-family: "Courgette", cursive;
+    
+}
+
+/* Header Container Styles */
+.header-container {
+    display: flex; 
+    align-items: center; 
+    background-color: #155d5f; 
+    padding: 10px; 
+}
+
+/* Vertical Menu Styles */
+.vertical-menu {
+    width: 220px; 
+    margin-right: 20px; 
+}
+
+.vertical-menu a {
+    background-color: #eee; 
+    color: black; 
+    display: block; 
+    padding: 12px; 
+    text-decoration: none; 
+    margin-bottom: 9px; 
+}
+
+.vertical-menu a:hover {
+    background-color: #d0d0ca; 
+    text-decoration: underline;
+}
+
+.vertical-menu a.active {
+    background-color: hsla(153, 51%, 38%, 0.894); 
+    color: white;
+}
+
+/* Header Styles */
+.header {
+    color: white; 
+    font-size: 30px; 
+    font-family: "Arvo", serif;
+    text-align: right;
+}
+
+/* Main Content Styles */
+.main-content {
+    overflow: auto; 
+    background-color: hsla(120, 8%, 92%, 0.918); 
+    padding: 32px; 
+    text-align: center; 
+    margin: 20px 40px 20px 40px; /* top right bottom left */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #7fb9a4;
+    text-align: center; 
+    padding: 48px; 
+    font-size: 18px; 
+}
+
+footer a {
+    color: #155d5f; 
+    text-decoration: none; 
+}
