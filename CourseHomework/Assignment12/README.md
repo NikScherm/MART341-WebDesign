@@ -1,12 +1,19 @@
 # What I worked on
-**I worked on the pages mission.html and index.html, along with adding fonts to the fonts folder and adding more styles to styles.css in the css folder.**
+I worked on all pages in terms of working with styles.css and added a page products.html
 
 ## Techniques applied
-- I added different font weights to Tinos and Arvo fonts.
-- #pagetitl has a text decoration that is underlined.
-- Page titles have h2::before and h2::after adding dots around the titles and sections.
-- Hover effects were added to the menu at the top, along with an underline on the text.
-- I self-hosted Tinos font and added two other fonts from a hosted website.
-- Text is aligned to the center for the most part.
 
-The Mission page is just a basic company page for the website.
+Sizing is done throughout the pages in images, text, etc.
+
+Overflow is used in the main content area to ensure no content is outside the borders of the area.
+
+A border was added around the main content area to give it a bit of style.
+
+Margins and padding are added in headers, main content area, text, and footer to make sure that 
+there is white space (negative) so things are easier on the eyes.
+
+The drop-down menu and welcome block both use inline.
+
+The horizontal menu has been replaced with a hover menu.
+
+The position is used in areas like drop-down menu to ensure the position is functional like appearing right under the Menu button.
