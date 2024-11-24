@@ -4,7 +4,7 @@ All pages on the document, the newest page is findart.html and index.html was re
 ## Techniques applied
 
 @media techniques were used to ensure that the website was mobile friendly. Using sizing like flex for the main content area to help it fix into tablet, mobile, and desktop view while maintaining that it is readable. Embedded content did not need to be adjusted in size.
-The images, text, sections, and title background had to be adjusted in code. Images and text are resized and coded to ensure they do not get cut off by the screen changes. 
+The images, text, sections, and title background had to be adjusted in code. Images and text are resized and coded to ensure they do not get cut off by the screen changes.  Sections were changed in mobile to stack on top of each other instead of keeping side by side in mobile.
 
 ### Aligning all adjustments:
 
