@@ -10,8 +10,11 @@ The images, text, sections, and title background had to be adjusted in code. Ima
 ### Aligning all adjustments:
 
   justify-content: center; > Horizonal alignment for content.
+  
     align-items: center; > Vertical aligmment for content.
+    
     These type are all around the code to keep things in middle of the screen for better focal points.
+    
     overflow-x: hidden; > everything on x axis is hidden if they go outside the bounds. This is more for just incase somehow I missed an area for overflow statement.
 
 ### Flex Items
