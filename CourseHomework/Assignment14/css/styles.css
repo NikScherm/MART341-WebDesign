@@ -1,0 +1,87 @@
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #99938b;
+    color: #333;
+    text-align: center;
+    img {
+        width: 500px; 
+        height: auto; 
+        text-align: center;
+    }
+}
+
+/* Header */
+header {
+    background-image: url('../images/wood.jpg'); 
+    background-size: fill; 
+    background-position: center; 
+    background-color: rgb(3, 69, 65);
+ 
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color:#2c1b18;
+}
+
+/* Navbar customization */
+.navbar {
+    background-color: #2c1b18 !important; 
+}
+
+.navbar a, .navbar-brand {
+    color: rgb(205, 173, 153) !important; 
+}
+
+.navbar a:hover, .navbar-brand:hover {
+    color: #ac834e !important; 
+}
+
+.navbar-toggler {
+    border-color: white !important; /*  override ALL previous styling from bootstrap*/
+}
+
+
+
+/* Main content */
+main {
+    padding: 2em;
+    background-color: rgb(255, 255, 255);
+    margin: 2em auto;
+    width: 70%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Back to Top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #81530d;  
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: none;  
+    z-index: 1000;  
+}
+
+
+
+/* Footer */
+footer {
+    background-color: #2c1b18;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
