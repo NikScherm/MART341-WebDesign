@@ -11,5 +11,7 @@ button for the script to be applied to my website.
 **Framework Integration:**
 
 Using bootstrap for the layout of the menu area for overall layout.
-Framework Styling:
+
+**Framework Styling:**
+
 I used the navigation bar with a drop down menu within the bootstrap.
