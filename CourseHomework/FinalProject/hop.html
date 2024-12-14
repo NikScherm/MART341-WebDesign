@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <title>Basic Website Layout</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+
+<!-- Canvas banner -->
+    <canvas id="myCanvas" width="450" height="100"></canvas>
+    
+ <!-- Menu + Dropdown Menu -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">American Artists</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="move.html">Movements</a>
+                  </li>
+                  <li class="nav-item dropdown">
+
+    
+<!-- DROP DOWN AREA-->
+<a class="nav-link dropdown-toggle" href="artist.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Artists
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="hop.html">Edward Hopper</a></li>
+                      <li><a class="dropdown-item" href="cass.html"> Mary Cassett</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="artist.html">Others </a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true"> </a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+    </header>
+
+
+<!-- MAIN  -->
+
+
+<main>
+        <section>
+            
+
+         <h1> Edward Hopper</h1>
+
+            <img class="imghead" src="images/second_story_Sunlight_Edward_Hopper.jpg" title="Second Story Sunlight" >
+
+            <hr>
+            <h2> About Hopper</h2>
+            <br>
+
+            <p> Periods: Realism, Impressionism, Modern art, Ashcan School</p>
+            <o1>
+               <li> 
+                Edward Hopper was a keen observer of everyday life, transforming it into tense and enigmatic artworks that focused on the psychological realities of his subjects. He spent most of his time in downtown New York and Cape Cod, where his reflective and individualistic nature shaped his art. Though known as a leading realist painter of 20th-century America, Hopper's vision of reality was selective, emphasizing mood over literal representation.
+            
+                Born in 1882 in New York, Hopper studied art from 1900 to 1906 and later transitioned from illustration to fine art. His travels to Paris between 1906 and 1910 profoundly influenced him, especially his encounter with Impressionism. This experience shifted his artistic style, moving away from dark, old master techniques to brighter, light-infused works.
+                
+                After returning to the U.S. in 1910, Hopper struggled to gain recognition, with most of his early success coming from etchings rather than oil paintings. His breakthrough came at age 37 with a solo exhibition at the Whitney Club, followed by greater success at the Frank K.M. Rehn Gallery in New York. These exhibitions helped elevate his career and establish him as a major figure in American art.
+            His work is Public Domain in a few countries included United States of America.
+         </li>  
+      </o1>
+          </p>
+            <br>
+            <br>
+            <hr>
+ <!-- 
+            
+            
+  Gallery Area 
+             
+            
+ -->
+            <h2 id="paintings"> Paintings </h2>
+            
+            <button id="backToTop" class="back-to-top">Back to Top</button>
+ <!-- -->
+ <!-- First Image -->
+ <!-- -->
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="images/Barber_Shop_Edward_Hopper.jpg" title="Barber Shop" alt="Groupd of people in Barber Shop" >
+
+                    <p><a href="images/Barber_Shop_Edward_Hopper.jpg">Full View of Barber Shop </a>
+                      <table>
+<!-- -->
+                        <tr>
+                           <th></th>
+                           <th scope="col">Info</th>
+                           <th scope="col"> </th>
+                           
+                        </tr>
+ <!-- -->
+                        <tr>
+                           <th scope="row"> Painting Medium</th>
+                           <td> Oil on Canvas</td>
+                           <td> </td>
+                          
+                        </tr>
+ <!-- -->
+                        <tr>
+                           <th scope="row">Date</th>
+                           <td>Created in 1931 </td>
+                           
+                          
+                        </tr>
+ <!-- -->
+                        <tr>
+                           <th scope="row">Period</th>
+                           <td>Unknown</td>
+                          
+                        </tr>
+ <!-- -->
+                     </table>
+
+
+                    </p>
+                </div>
+<!-- -->
+<!-- Second Image  -->
+  <!-- -->
+                <div class="gallery-item">
+                    <img src="images/ground_swell_Edward_Hopper.jpg" title="Ground Swell" alt="Boat on the Ocean near a Swell" >
+                    <p>
+                      <a href="images/ground_swell_Edward_Hopper.jpg">Full View of Ground Swell</a>
+                      <table>
+                        <tr>
+                           <th> </th>
+                           <th scope="col"> Info</th>
+                           <th scope="col"> </th>
+                           
+                        </tr>
+ <!-- -->
+                        <tr>
+                           <th scope="row"> Painting Medium</th>
+                           <td> Oil on Canvas</td>
+                           <td> </td>
+                          
+                        </tr>
+ <!-- -->
+                        <tr>
+                           <th scope="row">Date</th>
+                           <td>Created in 1939 </td>
+                           
+                          
+                        </tr>
+ <!-- -->
+                        <tr>
+                           <th scope="row">Period</th>
+                           <td>Unknown</td>
+                          
+                        </tr>
+ <!-- -->
+                     </table>
+
+                    </p>
+                </div>
+ <!-- -->
+<!-- Third Image -->
+  <!-- -->
+                <div class="gallery-item">
+                    <img src="images/interior_edward_hopper.jpg" title="Interior" alt="Backview of a girl in a white dress" >
+
+                    <p><a href="images/interior_edward_hopper.jpg">Full View of Interior </a>
+                      <table>
+                        <tr>
+                           <th></th>
+                           <th scope="col"> Info</th>
+                           <th scope="col"> </th>
+                           
+                        </tr>
+ <!-- -->
+                        <tr>
+                           <th scope="row"> Painting Medium</th>
+                           <td> Oil on Canvas</td>
+                           <td> </td>
+                          
+                        </tr>
+ <!-- -->
+                        <tr>
+                           <th scope="row">Date</th>
+                           <td>Created in 1921 </td>
+                           
+                          
+                        </tr>
+ <!-- -->
+                        <tr>
+                           <th scope="row">Period</th>
+                           <td>Unknown</td>
+                          
+                        </tr>
+ <!-- -->
+                     </table>
+
+                    </p>
+                </div>
+ <!-- -->
+<!-- Fourth Image  -->
+  <!-- -->
+                <div class="gallery-item">
+                    <img src="images/manhattan-bridge-loop_edward_hopper.jpg" title="Manhattan Bridge Loop" alt="A distant painting of Manhanttan Bridge" >
+                    <p><a href="images/manhattan-bridge-loop_edward_hopper.jpg">Full View of Manhattan Bridge Loop</a>
+                      <table>
+ <!-- -->
+                        <tr>
+                           <th></th>
+                           <th scope="col"> Info </th>
+                           <th scope="col"> </th>
+                           
+                        </tr>
+ <!-- -->
+                        <tr>
+                           <th scope="row"> Painting Medium</th>
+                           <td> Oil painting </td>
+                           <td> </td>
+                          
+                        </tr>
+ <!-- -->
+                        <tr>
+                           <th scope="row">Date</th>
+                           <td>Created in 1928 </td>
+                           
+                          
+                        </tr>
+ <!-- -->
+                        <tr>
+                           <th scope="row">Period</th>
+                           <td>Social Realism</td>
+                          
+                        </tr>
+ <!-- -->
+                     </table>
+                    
+                    
+                    </p>
+                </div>
+            </div>
+<br>
+<br>
+<br>
+        </section>
+    </main>
+
+
+<!-- FOOTER -->
+
+
+    <footer>
+        <p>&copy; 2024 All <a href="https://commons.wikimedia.org/wiki/Category:Paintings_by_Edward_Hopper"> his work from here </a>
+      </footer>
+
+<!-- SCRIPT -->
+
+    <script src="js/scroll.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

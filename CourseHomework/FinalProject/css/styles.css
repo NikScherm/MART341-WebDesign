@@ -1,0 +1,164 @@
+/* Body Styles */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('../images/paper.jpeg'); 
+    background-color: #bea483;
+    color: #333;
+    text-align: center;
+
+/* Note to self: Do not mess with padding and margin again. Just leave this alone. */
+   /**/
+   /* Imghead is for image headers on Artist pages */
+}
+.imghead {
+
+    display: block; 
+    margin: 0 auto;
+    max-width: 600px; 
+    height: auto; 
+text-align: center;
+}
+
+/* Header */
+header {
+    background-image: url('../images/ban.PNG'); 
+    background-size:cover; 
+    background-position: fixed; 
+    background-color: rgb(3, 69, 65);
+    font-family: "Arsenal SC", sans-serif;
+    color: white;
+    padding: 1em 0; /*  EM for more flexible changes to text without going to correct padding or margins */
+    text-align: center;
+    height: 180px;
+    width: auto;
+    
+}
+
+
+
+/* Navbar customization */
+.navbar {
+    padding: 15px;
+    background-color: #0f3248 !important; 
+  
+}
+
+.navbar a, .navbar-brand {
+    color: rgb(188, 197, 60) !important; 
+    margin-right: 50px;
+}
+
+.navbar a:hover, .navbar-brand:hover {
+    color: #33b21d !important; 
+}
+
+
+
+/* FONT*/
+.arsenal-sc-regular {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .arsenal-sc-bold {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .arsenal-sc-regular-italic {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .arsenal-sc-bold-italic {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+
+/* Main content */
+main {
+
+    padding: 100px;
+    background-color: rgba(247, 241, 241, 0.932);
+    margin: auto;
+    width: 65%;
+    border: #0b4756;
+    border-style: dotted;
+   
+    ul {
+
+        text-align: left;
+        margin: 100px;
+    }
+/* Applies to All Headers */
+    h2, h3, h1{
+
+        color: #0b4756;
+        font-family: "Arsenal SC", sans-serif;
+        text-decoration: underline;
+    }
+}
+
+/* Gallery GRID*/
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* pretty much same as 1fr 1fr or 50% 50% */
+    gap: 150px; 
+    max-width: 600px; 
+    margin:  auto; 
+    text-align: center;
+}
+
+.gallery-item {
+    text-align: center;
+  
+    padding: 10px;
+   
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto; 
+    max-height: 350px; 
+ border-radius: 5px;
+ text-align: center;
+}
+/* Text in Gallery */
+.gallery-item p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #0f3248 ;
+}
+/* Back to Top Button */
+.back-to-top {
+    position: fixed; 
+    bottom: 20px;
+    right: 20px;
+    background-color: #0d848c;  
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: none;  
+    z-index: 1000;  
+}
+
+
+
+/* Footer */
+footer {
+    background-color: #0f3248 ;
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+    position: static; /* Fixed cause overlapness keep it static */
+   
+    width: 100%;
+}

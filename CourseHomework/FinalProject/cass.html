@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <title>Basic Website Layout</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+         <!-- Banner Canvas -->
+    <canvas id="myCanvas" width="450" height="100"></canvas>
+    
+    <!-- Menu + Dropdown Menu -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">American Artists</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="move.html">Movements</a>
+                  </li>
+                  <li class="nav-item dropdown">
+
+    
+    <!-- DROP DOWN AREA-->
+                    <a class="nav-link dropdown-toggle" href="artist.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Artists
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="hop.html">Edward Hopper</a></li>
+                      <li><a class="dropdown-item" href="cass.html"> Mary Cassett</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="artist.html">Others </a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true"> </a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+
+      <!-- MAIN  -->
+
+
+    <main>
+        <section>
+            
+
+      <h1> Mary Cassatt</h1>
+
+            <img class="imghead" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Cassat_-_Blue_Armchair_NGA.jpg/1280px-Cassat_-_Blue_Armchair_NGA.jpg" title="Little Girl in a Blue Armchair" alt="Girl sitting on a couch" >
+            <hr>
+
+            <h2> About Cassatt</h2>
+
+            <br>
+            <p> Periods: Impressionism and Suffrage</p>
+
+            <o1>
+               <li>
+                Mary Cassatt (1844–1926) was an American painter and printmaker who spent most of her adult life in France, where she became a prominent figure among the Impressionists. She is known for her depictions of the social and private lives of women, especially focusing on the intimate bonds between mothers and children. Born in Pennsylvania into a wealthy family, she studied art in Philadelphia and later moved to Europe to further her education.
+            
+            Cassatt settled in Paris in 1874, where she developed a close friendship with Edgar Degas, whose influence shaped her work. She exhibited with the Impressionists in the late 19th century, known for her mastery of drawing, use of bright colors, and innovative techniques, including printmaking. Inspired by Japanese art, she produced notable works such as The Child's Bath and The Boating Party.
+            
+            Later in life, Cassatt became an advocate for Impressionist art in America, helping build collections like the H.O. Havemeyer Collection at the Metropolitan Museum of Art. Her failing eyesight forced her to stop working around 1914. Cassatt's legacy lies in both her contributions to Impressionism and her role in shaping American art collections.
+         </li>
+      </o1>
+       <!-- SOUND CLOUD EMBED  -->
+            <iframe id="audiocassatt" width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1778345925&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            
+            
+           </p>
+            <br>
+            <br>
+            <hr>
+            <!--
+            
+            
+            Gallery Area 
+             
+            
+            
+            -->
+            <h2 id="paintings"> Paintings </h2>
+           
+                  
+                  <div class="gallery">
+                   
+            <button id="backToTop" class="back-to-top">Back to Top</button>
+ <!-- -->
+<!-- First Painting -->
+ <!-- -->
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="images/box-MaryC.jpg"  title="In the Box"  alt=" Two women having a tea party">
+                    <p>  <a href="images/box-MaryC.jpg">Full View of In the Box </a>
+                      <table>
+ <!-- -->
+                        <tr>
+                           <th></th>
+                           <th scope="col"> Info </th>
+                           <th scope="col"> </th>
+                           
+                        </tr>
+ <!-- -->
+                        <tr>
+                           <th scope="row"> Painting Medium</th>
+                           <td> Oil on Canvas </td>
+                           <td> </td>
+                          
+                        </tr>
+ <!-- -->
+                        <tr>
+                           <th scope="row">Date</th>
+                           <td>Created in 1880 </td>
+                           
+                          
+                        </tr>
+ <!-- -->
+                        <tr>
+                           <th scope="row">Period</th>
+                           <td>Unknown</td>
+                          
+                        </tr>
+ <!-- -->
+                     </table></p>
+                </div>
+ <!-- -->
+ <!-- Second Image  -->
+ <!-- -->
+                <div class="gallery-item">
+                    <img src="images/pink-blouse-MaryC.jpg" title="Young Woman with Auburn Hair in a Pink Blouse" alt="Young Woman with Auburn Hair in a Pink Blouse">
+                    <p><a href="images/pink-blouse-MaryC.jpg">Full View of Pink Blouse </a>
+                     <table>
+ <!-- -->
+                        <tr>
+                           <th></th>
+                           <th scope="col"> Info </th>
+                           <th scope="col"> </th>
+                           
+                        </tr>
+ <!-- -->
+                        <tr>
+                           <th scope="row"> Painting Medium</th>
+                           <td> Oil on Canvas </td>
+                           <td> </td>
+                          
+                        </tr>
+ <!-- -->
+                        <tr>
+                           <th scope="row">Date</th>
+                           <td>Created in 1880 </td>
+                           
+                          
+                        </tr>
+ <!-- -->
+                        <tr>
+                           <th scope="row">Period</th>
+                           <td>Unknown</td>
+                          
+                        </tr>
+ <!-- -->
+                     </table></p>
+                </div>
+ <!-- -->
+ <!--  Third Image -->
+    <!-- -->
+                <div class="gallery-item">
+                    <img src="images/teacup-MaryC.jpg"  title="The Cup of Tea" alt="Woman holding a tea cup wearing a late 1800's pink dress">
+                    <p> <a href="images/teacup-MaryC.jpg">Full View of Teacup </a>
+                      <table>
+ <!-- -->
+                        <tr>
+                           <th></th>
+                           <th scope="col"> Info</th>
+                           <th scope="col"> </th>
+                           
+                        </tr>
+ <!-- -->
+                        <tr>
+                           <th scope="row"> Painting Medium</th>
+                           <td> Oil on Canvas </td>
+                           <td> </td>
+                          
+                        </tr>
+ <!-- -->
+                        <tr>
+                           <th scope="row">Date</th>
+                           <td>Created in 1880-1881 </td>
+                           
+                          
+                        </tr>
+ <!-- -->
+                        <tr>
+                           <th scope="row">Period</th>
+                           <td>Unknown</td>
+                          
+                        </tr>
+ <!-- -->
+                     </table></p>
+                </div>
+<!-- -->
+ <!-- Fourth Image -->
+   <!-- -->
+                <div class="gallery-item">
+                    <img src="images/two-women-MaryC.jpg" title="Two Women Throwing Flowers " alt="A close up of Two Women Throwing Flowers">
+                    <p><a href="images/two-women-MaryC.jpg">Full View of Two Women </a>
+                       <table>
+ <!-- -->
+                        <tr>
+                           <th></th>
+                           <th scope="col"> Info </th>
+                           <th scope="col"> </th>
+                           
+                        </tr>
+ <!-- -->
+                        <tr>
+                           <th scope="row"> Painting Medium</th>
+                           <td> Oil on Canvas </td>
+                           <td> </td>
+                          
+                        </tr>
+ <!-- -->
+                        <tr>
+                           <th scope="row">Date</th>
+                           <td>Created in 1872 </td>
+                           
+                          
+                        </tr>
+ <!-- -->
+                        <tr>
+                           <th scope="row">Period</th>
+                           <td>Suffrage Movement</td>
+                          
+                        </tr>
+ <!-- -->
+                     </table></p>
+                </div>
+            </div>
+<br>
+<br>
+<br>
+<br>
+        </section>
+    </main>
+
+
+    <!-- FOOTER -->
+
+
+    <footer>
+        <p>&copy; 2024 All <a href="https://commons.wikimedia.org/wiki/Mary_Cassatt#"> Her work from here </a>
+      </footer>
+
+<!-- SCRIPT -->
+
+   
+    <script src="js/scroll.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
